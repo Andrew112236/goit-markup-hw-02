@@ -2,11 +2,35 @@
   list-style: none;
 }
 
-html {
-  font-family: "Roboto";
-  font-style: normal;
+body {
+  font-family: "Roboto", "raleway", sans-serif;
   font-weight: 400;
   font-size: 12px;
+  background-color: #e5e5e5;
   line-height: 16px;
   letter-spacing: 0.1em;
+}
+p {
+  color: #757575;
+}
+h3 {
+  color: #212121;
+}
+.main-page-theme {
+  background: #2f303a;
+}
+#title-page {
+  color: #ffffff;
+}
+.header-style {
+  background-color: #ffffff;
+}
+.link-website:hover {
+  color: tomato;
+}
+.link-website:focus {
+  color: green;
+}
+.button {
+  cursor: pointer;
 }
