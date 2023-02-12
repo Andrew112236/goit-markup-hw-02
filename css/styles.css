@@ -25,7 +25,7 @@ body {
   font-family: "Roboto", "raleway", sans-serif;
   font-weight: 400;
   font-size: 12px;
-  line-height: 16px;
+  line-height: 1.33;
   letter-spacing: 0.03em;
   color: var(--color-text);
 }
@@ -51,7 +51,7 @@ body {
   font-family: "Raleway";
   font-weight: 700;
   font-size: 26px;
-  line-height: 31px;
+  line-height: 1.19;
   text-decoration: none;
   color: var(--color-logo-right-path);
 }
@@ -71,7 +71,7 @@ body {
 .title-page {
   font-weight: 900;
   font-size: 44px;
-  line-height: 60px;
+  line-height: 1.36;
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
@@ -81,7 +81,7 @@ body {
 .button-studio {
   font-weight: 700;
   font-size: 16px;
-  line-height: 30px;
+  line-height: 1.875;
   display: flex;
   align-items: center;
   text-align: center;
@@ -101,14 +101,14 @@ body {
 
 .text-section {
   font-size: 14px;
-  line-height: 24px;
+  line-height: 1.71;
   color: var(--color-text-section);
 }
 
 .title-section {
   font-weight: 700;
   font-size: 36px;
-  line-height: 42px;
+  line-height: 1.16;
   text-align: center;
 }
 
@@ -123,14 +123,14 @@ body {
 .team-name {
   font-weight: 500;
   font-size: 16px;
-  line-height: 19px;
+  line-height: 1.18;
   text-align: center;
   letter-spacing: 0.03em;
 }
 
 .ocupation {
   font-size: 16px;
-  line-height: 19px;
+  line-height: 1.18;
   text-align: center;
   color: var(--color-text-section);
 }
@@ -172,7 +172,7 @@ body {
 .button-portfolio {
   font-weight: 500;
   font-size: 16px;
-  line-height: 26px;
+  line-height: 1.62;
   text-align: center;
   background: var(--color-section-team);
   border-radius: 4px;
@@ -182,7 +182,7 @@ body {
 .button-portfolio-main {
   font-weight: 500;
   font-size: 16px;
-  line-height: 26px;
+  line-height: 1.62;
   text-align: center;
   color: var(--color-section-header);
   background: var(--color-logo-left-path);
@@ -192,13 +192,13 @@ body {
 .products .description {
   font-weight: 700;
   font-size: 18px;
-  line-height: 36px;
+  line-height: 2;
   letter-spacing: 0.06em;
 }
 
 .products .domain {
   font-size: 16px;
-  line-height: 30px;
+  line-height: 1.875;
   color: var(--color-text-section);
 }
 
