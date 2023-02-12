@@ -4,33 +4,31 @@
 
 body {
   font-family: "Roboto", "raleway", sans-serif;
+  font-style: normal;
   font-weight: 400;
   font-size: 12px;
   background-color: #e5e5e5;
   line-height: 16px;
   letter-spacing: 0.1em;
 }
-p {
-  color: #757575;
-}
-h3 {
+
+.navigation-list li a {
   color: #212121;
+  text-decoration: none;
 }
-.main-page-theme {
-  background: #2f303a;
+.link:hover {
+  color: #2196f3;
 }
-#title-page {
-  color: #ffffff;
+
+.logo-selection {
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+  color: #000000;
 }
-.header-style {
-  background-color: #ffffff;
-}
-.link-website:hover {
-  color: tomato;
-}
-.link-website:focus {
-  color: green;
-}
-.button {
-  cursor: pointer;
+.color-logo {
+  color: #2196f3;
 }
