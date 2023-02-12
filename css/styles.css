@@ -1,31 +1,50 @@
 :root {
-  --color-section: #ffffff;
+  --color-section-header: #ffffff;
+  --color-section-footer-and-main: #2f303a;
+  --color-section-objective: #e5e5e5;
+  --color-section-team: #f5f4fa;
+  --color-logo-left-path: #2196f3;
+  --color-logo-right-path: #000000;
+  --color-focus: magenta;
+  --color-hover: blue;
+  --color-text: #212121;
+  --color-text-section: #757575;
+  --color-adress: rgba(255, 255, 255, 0.6);
 }
 
 .unstyled-list {
   list-style: none;
 }
 
+.page-header,
+.header-navigation {
+  background-color: var(--color-section-header);
+}
+
 body {
   font-family: "Roboto", "raleway", sans-serif;
-  font-style: normal;
   font-weight: 400;
   font-size: 12px;
   line-height: 16px;
   letter-spacing: 0.03em;
-  color: #212121;
+  color: var(--color-text);
+}
+
+.navigation-link li a {
+  color: var(--color-section-header);
+  text-decoration: none;
 }
 
 .link {
-  color: #212121;
+  color: var(--color-text);
   text-decoration: none;
 }
 .link:hover {
-  color: #2196f3;
+  color: var(--color-hover);
 }
 
 .link:focus {
-  color: magenta;
+  color: var(--color-focus);
 }
 
 .logo-selection {
@@ -34,15 +53,19 @@ body {
   font-size: 26px;
   line-height: 31px;
   text-decoration: none;
-  color: #000000;
+  color: var(--color-logo-right-path);
 }
 .color-logo {
-  color: #2196f3;
+  color: var(--color-logo-left-path);
+}
+
+.page-header {
+  background: var(--color-section);
 }
 
 .main-page-section,
 .footer {
-  background: #2f303a;
+  background: var(--color-section-footer-and-main);
 }
 
 .title-page {
@@ -52,7 +75,7 @@ body {
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  color: var(--color-section);
+  color: var(--color-section-header);
 }
 
 .button-studio {
@@ -63,8 +86,8 @@ body {
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
-  color: var(--color-section);
-  background: #2196f3;
+  color: var(--color-section-header);
+  background: var(--color-logo-left-path);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   cursor: pointer;
@@ -79,7 +102,7 @@ body {
 .text-section {
   font-size: 14px;
   line-height: 24px;
-  color: #757575;
+  color: var(--color-text-section);
 }
 
 .title-section {
@@ -87,6 +110,14 @@ body {
   font-size: 36px;
   line-height: 42px;
   text-align: center;
+}
+
+.company-team {
+  background: var(--color-section-team);
+}
+
+.background-box {
+  background: var(--color-section-header);
 }
 
 .team-name {
@@ -101,7 +132,7 @@ body {
   font-size: 16px;
   line-height: 19px;
   text-align: center;
-  color: #757575;
+  color: var(--color-text-section);
 }
 
 .image-studio {
@@ -109,38 +140,32 @@ body {
   height: 260px;
 }
 
-.page-header {
-  background: var(--color-section);
-}
-.company-team {
-  background: #f5f4fa;
-}
-
 .contact-footer {
   font-size: 14px;
-  color: rgba(255, 255, 255, 0.6);
   text-decoration: none;
+  font-style: normal;
+  color: var(--color-adress);
 }
 .contact-footer:hover {
-  color: #2196f3;
+  color: var(--color-logo-left-path);
 }
 
 .contact-footer:focus {
-  color: magenta;
+  color: var(--color-focus);
 }
 .adress-footer {
   font-size: 14px;
   letter-spacing: 0.03em;
-  color: var(--color-section);
+  color: var(--color-section-header);
 }
 
 .footer .logo-selection {
-  color: var(--color-section);
+  color: var(--color-section-header);
 }
 /* PAGE PORTFOLIO */
 
-.button-section {
-  color: #e5e5e5;
+.products {
+  background: var(--color-section-objective);
 }
 
 .button-portfolio {
@@ -148,7 +173,7 @@ body {
   font-size: 16px;
   line-height: 26px;
   text-align: center;
-  background: #f5f4fa;
+  background: var(--color-section-team);
   border-radius: 4px;
   cursor: pointer;
 }
@@ -158,8 +183,8 @@ body {
   font-size: 16px;
   line-height: 26px;
   text-align: center;
-  color: var(--color-section);
-  background: #2196f3;
+  color: var(--color-section-header);
+  background: var(--color-logo-left-path);
   border-radius: 4px;
   cursor: pointer;
 }
@@ -173,7 +198,7 @@ body {
 .products .domain {
   font-size: 16px;
   line-height: 30px;
-  color: #757575;
+  color: var(--color-text-section);
 }
 
 .image-portfolio {
