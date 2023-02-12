@@ -1,3 +1,7 @@
+:root {
+  --color-section: #ffffff;
+}
+
 .unstyled-list {
   list-style: none;
 }
@@ -8,7 +12,8 @@ body {
   font-weight: 400;
   font-size: 12px;
   line-height: 16px;
-  letter-spacing: 0.1em;
+  letter-spacing: 0.03em;
+  color: #212121;
 }
 
 .link {
@@ -28,7 +33,6 @@ body {
   font-weight: 700;
   font-size: 26px;
   line-height: 31px;
-  letter-spacing: 0.03em;
   text-decoration: none;
   color: #000000;
 }
@@ -48,7 +52,7 @@ body {
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  color: #ffffff;
+  color: var(--color-section);
 }
 
 .button-studio {
@@ -59,26 +63,22 @@ body {
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
-  color: #ffffff;
+  color: var(--color-section);
   background: #2196f3;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
+  cursor: pointer;
 }
 
 .sub-title-section {
   font-weight: 700;
   font-size: 14px;
-  line-height: 16px;
-  letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #212121;
 }
 
 .text-section {
-  font-weight: 400;
   font-size: 14px;
   line-height: 24px;
-  letter-spacing: 0.03em;
   color: #757575;
 }
 
@@ -87,8 +87,6 @@ body {
   font-size: 36px;
   line-height: 42px;
   text-align: center;
-  letter-spacing: 0.03em;
-  color: #212121;
 }
 
 .team-name {
@@ -97,17 +95,12 @@ body {
   line-height: 19px;
   text-align: center;
   letter-spacing: 0.03em;
-  color: #212121;
 }
 
 .ocupation {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 400;
   font-size: 16px;
   line-height: 19px;
   text-align: center;
-  letter-spacing: 0.03em;
   color: #757575;
 }
 
@@ -117,44 +110,69 @@ body {
 }
 
 .page-header {
-  background: #ffffff;
+  background: var(--color-section);
 }
 .company-team {
   background: #f5f4fa;
 }
 
-.footer .logo-selection {
-  color: #ffffff;
+.contact-footer {
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
 }
-.footer-section .link {
-  color: #ffffff99;
+.contact-footer:hover {
+  color: #2196f3;
 }
 
+.contact-footer:focus {
+  color: magenta;
+}
+.adress-footer {
+  font-size: 14px;
+  letter-spacing: 0.03em;
+  color: var(--color-section);
+}
+
+.footer .logo-selection {
+  color: var(--color-section);
+}
 /* PAGE PORTFOLIO */
+
+.button-section {
+  color: #e5e5e5;
+}
 
 .button-portfolio {
   font-weight: 500;
   font-size: 16px;
   line-height: 26px;
   text-align: center;
-  letter-spacing: 0.03em;
-  color: #212121;
   background: #f5f4fa;
   border-radius: 4px;
+  cursor: pointer;
+}
+
+.button-portfolio-main {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  color: var(--color-section);
+  background: #2196f3;
+  border-radius: 4px;
+  cursor: pointer;
 }
 .products .description {
   font-weight: 700;
   font-size: 18px;
   line-height: 36px;
   letter-spacing: 0.06em;
-  color: #212121;
 }
 
 .products .domain {
-  font-weight: 400;
   font-size: 16px;
   line-height: 30px;
-  letter-spacing: 0.03em;
   color: #757575;
 }
 
