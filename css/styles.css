@@ -111,7 +111,7 @@ body {
   color: #757575;
 }
 
-.image {
+.image-studio {
   width: 270px;
   height: 260px;
 }
@@ -128,4 +128,37 @@ body {
 }
 .footer-section .link {
   color: #ffffff99;
+}
+
+/* PAGE PORTFOLIO */
+
+.button-portfolio {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+  background: #f5f4fa;
+  border-radius: 4px;
+}
+.products .description {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 36px;
+  letter-spacing: 0.06em;
+  color: #212121;
+}
+
+.products .domain {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+
+.image-portfolio {
+  width: 370px;
+  height: 294px;
 }
