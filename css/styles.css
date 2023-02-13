@@ -6,7 +6,6 @@
   --color-logo-left-path: #2196f3;
   --color-logo-right-path: #000000;
   --color-focus: magenta;
-  --color-hover: blue;
   --color-text: #212121;
   --color-text-section: #757575;
   --color-adress: rgba(255, 255, 255, 0.6);
@@ -35,12 +34,21 @@ body {
   text-decoration: none;
 }
 
+.navigation-list {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+
+  color: var(--color-text);
+}
+
 .link {
   color: var(--color-text);
   text-decoration: none;
 }
 .link:hover {
-  color: var(--color-hover);
+  color: var(--color-logo-left-path);
 }
 
 .link:focus {
@@ -178,16 +186,17 @@ body {
   cursor: pointer;
 }
 
-.button-portfolio-main {
+.button-portfolio:hover {
+  font-family: "Roboto";
+  font-style: normal;
   font-weight: 500;
   font-size: 16px;
-  line-height: 1.62;
+  line-height: 1.625;
   text-align: center;
   color: var(--color-section-header);
   background: var(--color-logo-left-path);
-  border-radius: 4px;
-  cursor: pointer;
 }
+
 .products .description {
   font-weight: 700;
   font-size: 18px;
