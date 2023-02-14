@@ -32,11 +32,6 @@ body {
   color: var(--color-text);
 }
 
-.navigation-link li a {
-  color: var(--color-section-header);
-  text-decoration: none;
-}
-
 .navigation-list {
   font-weight: 500;
   font-size: 14px;
@@ -55,7 +50,7 @@ body {
 }
 
 .link:focus {
-  color: var(--color-focus);
+  color: var(--color-logo-left-path);
 }
 
 .logo-selection {
@@ -93,18 +88,24 @@ body {
   font-weight: 700;
   font-size: 16px;
   line-height: 1.875;
-  display: flex;
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
   color: var(--color-section-header);
   background: var(--color-logo-left-path);
+  border-color: var(--color-section-footer-and-main);
   border-radius: 4px;
   cursor: pointer;
 }
 
 .button-studio:hover {
   box-shadow: var(--color-box-shadow-studio);
+  border-color: var(--color-logo-left-path);
+}
+
+.button-studio:focus {
+  border-color: var(--color-logo-left-path);
+  border-radius: 4px;
 }
 
 .sub-title-section {
@@ -165,8 +166,9 @@ body {
 }
 
 .contact-footer:focus {
-  color: var(--color-focus);
+  color: var(--color-logo-left-path);
 }
+
 .adress-footer {
   font-size: 14px;
   color: var(--color-section-header);
@@ -195,6 +197,16 @@ body {
 }
 
 .button-portfolio:hover {
+  font-family: "Roboto";
+  font-style: normal;
+  color: var(--color-section-header);
+  background: var(--color-logo-left-path);
+  box-shadow: var(--color-box-shadow-portfolio);
+  border-color: var(--color-logo-left-path);
+  border-radius: 4px;
+}
+
+.button-portfolio:focus {
   font-family: "Roboto";
   font-style: normal;
   color: var(--color-section-header);
